@@ -1,4 +1,13 @@
 # ⚓ Smart Exhaust Gas Cleaning System (EGCS)
+## 🚀 Live Project
+
+### 🖥️ Interactive HMI
+
+🚢 **[Launch the Interactive EGCS Scrubber HMI](https://hangmanlucky.github.io/marine-egcs-scrubber-control/)**
+
+A browser-based Engine Control Room simulation with live process values, alarms, dosing control, discharge-valve logic and simulated ECA lockout behaviour.
+
+
 ### Automated Closed-Loop Scrubber Control for Marine Emissions Compliance
 
 ![Platform](https://img.shields.io/badge/PLC-Siemens%20S7--1500%20%2F%20CODESYS-blue)
@@ -47,7 +56,7 @@ pump output, discharge valve state, a simplified process schematic, and an alarm
 log. It also **simulates the vessel periodically entering an ECA** so you can see the
 discharge lockout banner trigger live — open it in any browser.
 
-![HMI Dashboard](images/hmi-dashboard.png)
+![HMI Dashboard](hmi-dashboard.png)
 
 > A rendered screenshot is already included at `images/hmi-dashboard.png`. The HMI
 > itself is fully live — open `hmi/index.html` in any browser to watch the gauges
@@ -57,7 +66,7 @@ discharge lockout banner trigger live — open it in any browser.
 
 ## 🗺️ System Architecture
 
-![Architecture Diagram](images/architecture_diagram.svg)
+![Architecture Diagram](architecture_diagram.svg)
 
 Exhaust flows from the main/auxiliary engine into the scrubber tower, where wash
 water strips out SOx. The wash water is checked by pH/SOx analysers, the PLC adjusts
