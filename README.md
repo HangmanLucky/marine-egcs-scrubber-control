@@ -59,7 +59,7 @@ discharge lockout banner trigger live — open it in any browser.
 ![HMI Dashboard](hmi-dashboard.png)
 
 > This is a rendered screenshot of the HMI,
-> which itself is fully live — open `index.html` in any browser to watch the gauges
+> which itself is fully live — just **[Launch the Interactive EGCS Scrubber HMI](https://hangmanlucky.github.io/marine-egcs-scrubber-control/)** in any browser to watch the gauges
 > drift and see the vessel automatically cycle in and out of an ECA (every ~14s),
 > triggering the discharge lockout banner. Feel free to grab your own capture during
 > that lockout moment for an even more striking recruiter-facing screenshot.
