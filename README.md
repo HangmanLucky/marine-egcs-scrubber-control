@@ -102,9 +102,9 @@ marine-egcs-scrubber-control/
 
 ## 📄 Documentation
 
-- [I/O List](docs/IO_List.md)
-- [Functional Test Procedures](docs/Testing_Procedures.md)
-- [Full Technical Manual (PDF)](ebook/EGCS_Technical_Manual.pdf) — 29-page project ebook covering regulatory context, architecture, hardware, control philosophy, full annotated code, HMI design, alarm philosophy, testing/commissioning, and a HAZOP-style hazard register
+- [I/O List](IO_List.md)
+- [Functional Test Procedures](Testing_Procedures.md)
+- [Full Technical Manual (PDF)](EGCS_Technical_Manual.pdf) — 29-page project ebook covering regulatory context, architecture, hardware, control philosophy, full annotated code, HMI design, alarm philosophy, testing/commissioning, and a HAZOP-style hazard register
 
 ## 🧪 Running / Reviewing This Project
 
