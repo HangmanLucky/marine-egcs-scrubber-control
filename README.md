@@ -50,7 +50,7 @@ which is exactly what this project simulates.
 
 ## 🖥️ HMI — Engine Control Room View
 
-The `hmi/index.html` mockup simulates the operator-facing screen you'd find in the
+The `index.html` mockup simulates the operator-facing screen you'd find in the
 Engine Control Room or on a bridge repeater: live pH/SOx/temperature gauges, dosing
 pump output, discharge valve state, a simplified process schematic, and an alarm/event
 log. It also **simulates the vessel periodically entering an ECA** so you can see the
@@ -58,8 +58,8 @@ discharge lockout banner trigger live — open it in any browser.
 
 ![HMI Dashboard](hmi-dashboard.png)
 
-> A rendered screenshot is already included at `images/hmi-dashboard.png`. The HMI
-> itself is fully live — open `hmi/index.html` in any browser to watch the gauges
+> This is a rendered screenshot of the HMI,
+> which itself is fully live — open `index.html` in any browser to watch the gauges
 > drift and see the vessel automatically cycle in and out of an ECA (every ~14s),
 > triggering the discharge lockout banner. Feel free to grab your own capture during
 > that lockout moment for an even more striking recruiter-facing screenshot.
@@ -108,11 +108,11 @@ marine-egcs-scrubber-control/
 
 ## 🧪 Running / Reviewing This Project
 
-1. **PLC logic** — open `src/EGCS_ScrubberControl.st` in TIA Portal (SCL) or a
+1. **PLC logic** — open `EGCS_ScrubberControl.st` in TIA Portal (SCL) or a
    CODESYS project, or simply read it: it's fully commented.
-2. **HMI mockup** — open `hmi/index.html` directly in any browser. No build step,
+2. **HMI mockup** — open `index.html` directly in any browser. No build step,
    no dependencies.
-3. **Test cases** — walk through `docs/Testing_Procedures.md`; each row maps to a
+3. **Test cases** — walk through `Testing_Procedures.md`; each row maps to a
    forceable input scenario you can replicate in PLCSIM or a soft-PLC harness.
 
 ## ⚠️ Disclaimer
